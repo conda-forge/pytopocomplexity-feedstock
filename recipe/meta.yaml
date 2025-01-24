@@ -1,5 +1,5 @@
 {% set name = "pytopocomplexity" %}
-{% set version = "1.0.0" %}
+{% set version = "1.0.1" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pytopocomplexity-{{ version }}.tar.gz
-  sha256: 9688242e052ae2d0b790b2731a2dba1232ef0513a898f410599d9c6348def058
+  sha256: 98b046268eaa5104e6c6b4087782d65039d2e0e01ff513b607042811b25a58c1
 
 build:
   noarch: python
